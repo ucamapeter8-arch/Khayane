@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    gap: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5fffa;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 450;
+}
+
+header {
+    padding: 2rem;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;  
+}
+
+main {
+    background-image:url(https://images.pexels.com/photos/7794361/pexels-photo-7794361.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h3 {
+    color: #333333;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 5px;
+    color: lightslategray;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.sobre-conteúdo h2 {
+    margin-bottom: 0;
+    color: #2c3e50;
+    font-size: 1.8rem;
+    padding-bottom: 0;
+}
+
+.sobre-conteúdo p{
+    margin-top: -5px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.chamada-final {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    color: #2c3e50;
+}
+
+.positive-option {
+    accent-color: SeaGreen;
+}
+
+.alert-option {
+    accent-color: goldenrod;
+}
+
+.critical-option {
+    accent-color: indianred;
+}
+
+.botao-enviar{
+    background-color: SteelBlue;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 40px auto;
+    transition: background-color 0.3s;
+}
+
+.botao-enviar:hover{
+background-color: #356a8d;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #ddd;
+    color: #777;
+    font-size: 14px;
+}
+
+#resultado-container {
+    display: none; /* Começa escondido */
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    border-top: 8px solid #4682B4; /* O tom SteelBlue que combina com o cinza */
+}
+
+#titulo-resultado {
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    color: #2C3E50; /* Azul acinzentado profissional */
+}
+
+#texto-resultado {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#btn-refazer {
+    background-color: #5D6D7E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#btn-refazer:hover {
+    background-color: #2C3E50; /* Escurece ao passar o rato */
+}
